@@ -1,6 +1,5 @@
 ### ThemeBtn UI
-```
-### 
+``` javascript 
 export default function ThemeBtn() {
     return (
         <label className="relative inline-flex items-center cursor-pointer">
@@ -17,7 +16,7 @@ export default function ThemeBtn() {
 ```
 
 ### Card UI
-```
+``` javascript 
 export default function Card() {
     return (
         <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -96,7 +95,7 @@ export default function Card() {
 ```
 
 ### App UI
-```
+``` javascript 
 <div className="flex flex-wrap min-h-screen items-center">
                 <div className="w-full">
                     <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
@@ -112,7 +111,7 @@ export default function Card() {
 ```
 
 ### remember to change config in tailwind
-```
+``` javascript 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [

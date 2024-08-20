@@ -1,5 +1,5 @@
 ### Header Components
-```
+``` javascript 
 export default function Header() {
     return (
         <header className="shadow sticky z-50 top-0">
@@ -51,7 +51,7 @@ export default function Header() {
 }
 ```
 ### Footer Components
-```
+``` javascript 
 export default function Footer() {
     return (
         <footer className="bg-white border-y">
@@ -213,7 +213,7 @@ export default function Footer() {
 }
 ```
 ### Home Components
-```
+``` javascript 
     export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -259,7 +259,7 @@ export default function Footer() {
 }
 ```
 ### About us components
-```
+``` javascript 
 export default function About() {
     return (
         <div className="py-16 bg-white">
@@ -292,7 +292,7 @@ export default function About() {
 }
 ```
 ### Contact us Component
-```
+``` javascript 
 export default function Contact() {
     return (
         <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
